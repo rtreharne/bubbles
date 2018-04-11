@@ -6,7 +6,7 @@ def nothing(x):
     pass
 
 # Load an image
-img = cv2.imread('video/Pictures100.jpg')
+img = cv2.imread('Pictures100.jpg')
 
 # Resize The image
 if img.shape[1] > 600:
